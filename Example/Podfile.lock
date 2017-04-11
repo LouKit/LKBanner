@@ -1,0 +1,21 @@
+PODS:
+  - LKBanner (0.1.0)
+  - SDWebImage (3.8.0):
+    - SDWebImage/Core (= 3.8.0)
+  - SDWebImage/Core (3.8.0)
+
+DEPENDENCIES:
+  - LKBanner (from `../`)
+  - SDWebImage (= 3.8.0)
+
+EXTERNAL SOURCES:
+  LKBanner:
+    :path: ../
+
+SPEC CHECKSUMS:
+  LKBanner: 9a336280457a74804c6633405458ee33a48da59c
+  SDWebImage: 7d9fe229266696de91eadf840c77ca15efd4bbd2
+
+PODFILE CHECKSUM: b30768da0be2aefd5abdf82022cbdb1ccdbbc00a
+
+COCOAPODS: 1.1.1

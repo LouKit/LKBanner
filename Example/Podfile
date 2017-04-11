@@ -2,6 +2,7 @@ use_frameworks!
 
 target 'LKBanner_Example' do
   pod 'LKBanner', :path => '../'
+  pod 'SDWebImage','3.8.0' 
 
   target 'LKBanner_Tests' do
     inherit! :search_paths

@@ -1,0 +1,6 @@
+framework module LKBanner {
+  umbrella header "LKBanner-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_LKBanner_Example {
+  umbrella header "Pods-LKBanner_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

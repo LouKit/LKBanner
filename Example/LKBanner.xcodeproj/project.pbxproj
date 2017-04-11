@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		082A9F75D484C4EAD799988B /* Pods_LKBanner_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 70149721E4B1857EE8B9E5FF /* Pods_LKBanner_Tests.framework */; };
 		1598EB837E40C667F762FD35 /* Pods_LKBanner_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA7534D28000D0509F18AA0A /* Pods_LKBanner_Example.framework */; };
+		39F91A311E9CB97900358147 /* News.m in Sources */ = {isa = PBXBuildFile; fileRef = 39F91A301E9CB97900358147 /* News.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -38,7 +39,9 @@
 
 /* Begin PBXFileReference section */
 		37F46C796C16881205360960 /* Pods-LKBanner_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKBanner_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKBanner_Example/Pods-LKBanner_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5FF28AFBCBF39F62AD4CBA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		39F91A2F1E9CB97900358147 /* News.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = News.h; sourceTree = "<group>"; };
+		39F91A301E9CB97900358147 /* News.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = News.m; sourceTree = "<group>"; };
+		5FF28AFBCBF39F62AD4CBA92 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LKBanner_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKBanner_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,9 +63,9 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		70149721E4B1857EE8B9E5FF /* Pods_LKBanner_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKBanner_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		75D265AEEE0609472150E1AA /* LKBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LKBanner.podspec; path = ../LKBanner.podspec; sourceTree = "<group>"; };
+		75D265AEEE0609472150E1AA /* LKBanner.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LKBanner.podspec; path = ../LKBanner.podspec; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A5A0F9DC789C071B0C4BB87C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A5A0F9DC789C071B0C4BB87C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		BA7534D28000D0509F18AA0A /* Pods_LKBanner_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKBanner_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA68C710A310D4FAA61FB609 /* Pods-LKBanner_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKBanner_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LKBanner_Tests/Pods-LKBanner_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		CF4C18628C75147C11084327 /* Pods-LKBanner_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKBanner_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LKBanner_Example/Pods-LKBanner_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 		6003F593195388D20070C39A /* Example for LKBanner */ = {
 			isa = PBXGroup;
 			children = (
+				39F91A2F1E9CB97900358147 /* News.h */,
+				39F91A301E9CB97900358147 /* News.m */,
 				6003F59C195388D20070C39A /* LKAppDelegate.h */,
 				6003F59D195388D20070C39A /* LKAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -396,6 +401,7 @@
 			files = (
 				6003F59E195388D20070C39A /* LKAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* LKViewController.m in Sources */,
+				39F91A311E9CB97900358147 /* News.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
